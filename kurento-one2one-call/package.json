@@ -3,7 +3,8 @@
   "version": "6.6.1",
   "private": true,
   "scripts": {
-    "postinstall": "cd static && bower install"
+    "postinstall": "cd static && bower install",
+    "start1": "npm start -- --ws_uri=ws://34.253.237.168:8888/kurento"
   },
   "dependencies": {
     "express": "~4.12.4",
